@@ -1,0 +1,20 @@
+First get user input mainly infinetly through "For loop"
+We use a generator expresions to yeild the result
+    we get the 2 interrupts mainly when designing the interpretor
+       KeyboardError crt+ C and EndOfFile (EOF) crt +D
+
+
+=====
+    THERE ARE TWO TYPES OF PYTHON CODE:
+
+        STATEMENTS "Which does'nt Evaluate"  =={exec}
+        EXPRESSIONS "Which does some evaluation and Return" =={eval}
+
+--->
+    if user_input is a Expression:
+        Return eval
+    else:
+        Return exec
+
+In order to check a user_input is an Expression we just compile it into python bytecode using a compile(){function}
+    and then return eval if it succeds..
