@@ -1,4 +1,4 @@
-## To take mainly user input and work like a Ipython Interpreter
+##  A simple Interpreter simmilar to Ipython
 
 
 * User input
