@@ -1,4 +1,4 @@
-##  A simple Interpreter simmilar to Ipython
+##  A simple Interpreter similar to Ipython
 
 
 * User input
